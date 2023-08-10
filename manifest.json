@@ -6,7 +6,7 @@
   "icons": {
     "48": "icons/48.png"
   },
-  "homepage_url": "https://linear-card-highlighter.io37.ch",
+  "homepage_url": "https://linear.io37.ch",
   "content_scripts": [
     {
       "matches": [
