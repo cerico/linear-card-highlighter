@@ -1,6 +1,6 @@
 {
   "name": "linear-card-highlighter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Add trim to linear cards for better visibility across projects",
   "main": "init.js",
   "scripts": {
