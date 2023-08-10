@@ -1,0 +1,19 @@
+.modified-card {
+  position: relative;
+  border-left-width: 12px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  padding: 5px;
+  border-bottom-left-radius: 2px;
+}
+
+.modified-card::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 0px;
+  background: linear-gradient(to right, var(--dynamic-border-color), transparent)
+}
