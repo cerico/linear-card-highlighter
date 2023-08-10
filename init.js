@@ -40,7 +40,7 @@ const handleMutation = (mutations) => {
     if (mutation.type === "childList") {
       for (let addedNode of mutation.addedNodes) {
         if (isTodoSpan(addedNode)) {
-          const CARD_CLASS = addedNode.getElementsByTagName('a')[0].classList[0]
+          const CARD_CLASS = addedNode.getElementsByTagName('A')[0].classList[0]
           cardClass(CARD_CLASS)
         }
       }
@@ -51,21 +51,14 @@ const handleMutation = (mutations) => {
 const waitUntilElementReady = async (className) => {
   console.log("waitUntilElementReady")
   while ((elements = document.getElementsByClassName(className)).length < 1) {
-    console.log("waiting")
     await new Promise((resolve) => setTimeout(resolve, 100))
   }
 }
 
 const setTrim = (card) => {
-  const element = card.querySelector('svg[class]')
-  if (element === null) {
-    return
-  }
-  const pathElement = element.querySelector('path')
-  const computedStyle = getComputedStyle(pathElement)
-  const fillColor = computedStyle.fill
+  const element = card.querySelector('[aria-label="Open project…"]')
+  const fillColor = getComputedStyle(element.getElementsByTagName('path')[0]).fill
   card.style.borderColor = fillColor
-  card.style.setProperty('--dynamic-border-color', fillColor);
   card.classList.add('modified-card')
 }
 
