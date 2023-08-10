@@ -1,3 +1,12 @@
+## [0.1.2](https://github.com/cerico/linear-card-highlighter/compare/v0.1.1...v0.1.2) (2023-08-10)
+
+
+### Bug Fixes
+
+* make gecko id unique for local development ([feab73a](https://github.com/cerico/linear-card-highlighter/commit/feab73adfb8f0f223f171dd8b69367f9f25077a0))
+
+
+
 ## [0.1.1](https://github.com/cerico/linear-card-highlighter/compare/v0.1.0...v0.1.1) (2023-08-10)
 
 

@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Linear Card Highlighter",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Add color trim to linear cards for better visibility across projects",
   "icons": {
     "48": "icons/48.png"
