@@ -1,3 +1,12 @@
+## [0.1.3](https://github.com/cerico/linear-card-highlighter/compare/v0.1.2...v0.1.3) (2023-08-10)
+
+
+### Bug Fixes
+
+* resize icon to 48 square ([22c9182](https://github.com/cerico/linear-card-highlighter/commit/22c9182507fef6eb39f73469ae68fc21c55352d3))
+
+
+
 ## [0.1.2](https://github.com/cerico/linear-card-highlighter/compare/v0.1.1...v0.1.2) (2023-08-10)
 
 
