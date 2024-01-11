@@ -1,3 +1,17 @@
+# [0.2.0](https://github.com/cerico/linear-card-highlighter/compare/v0.1.3...v0.2.0) (2024-01-11)
+
+
+### Bug Fixes
+
+* update workflow syntax of readme publishing ([7aa999d](https://github.com/cerico/linear-card-highlighter/commit/7aa999dd9d18aa29eb326704c79914466f980dd3))
+
+
+### Features
+
+* run tldr in makefile if no rule ([0e80320](https://github.com/cerico/linear-card-highlighter/commit/0e80320caaee8cc0511bfecd2b2b9dcb38eb9fc8))
+
+
+
 ## [0.1.3](https://github.com/cerico/linear-card-highlighter/compare/v0.1.2...v0.1.3) (2023-08-10)
 
 
